@@ -1,0 +1,38 @@
+
+@font-face {font-family: 'AquireBold';
+    src: url(../fonts/Aquire/AquireBold-8Ma60.otf) format('opentype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    font-weight: bold;
+}
+
+@font-face {font-family: "raleway-bold";
+    src: url(../fonts/raleway/Raleway-Bold.ttf) format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    font-weight: bold;
+}
+@font-face {font-family: "raleway";
+    src: url(../fonts/raleway/Raleway-Regular.ttf) format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    font-weight: normal;
+}
+
+body {
+    width: 1700px;
+    height: 1000px;
+    background-color: white;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
