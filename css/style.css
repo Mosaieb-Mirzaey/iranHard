@@ -262,7 +262,6 @@ a:hover {
     height: 244px;
     margin: 135px auto auto 0;
     padding: 40px;
-    text-align: left;
 }
 
 #service .col-6>.subscribe h1 {
@@ -296,7 +295,12 @@ a:hover {
     width: 156px;
     height: 50px;
     background-color: rgb(228, 229, 239);
+    border: none;
     border-radius: 30px;
+}
+
+#service .col-6>.subscribe button:hover {
+    background-color: rgb(122, 139, 253);
 }
 
 #integrateApp>.containers {
@@ -349,4 +353,155 @@ a:hover {
 
 .integrateBtn> .watchDemo:hover {
     border: 2px solid #5428FD;
+}
+
+#industry>.containers>.col {
+    margin-top: 280px;
+}
+
+#industry h1 {
+    font-size: 30px;
+    font-family: "robotoBold";
+    color: rgb(51, 51, 79);
+    line-height: 1.9;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#industry p {
+    font-size: 16px;
+    font-family: "robotoRegular";
+    color: rgb(118, 126, 173);
+    line-height: 1.563;
+    margin: 30px auto auto 0;
+    width: 722px;
+}
+
+#industry .industryRow {
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: 70px;
+}
+
+.industryRow>.col-2 span {
+    display: inline-block;
+    font-size: 16px;
+    font-family: "robotoRegular";
+    /*color: rgb(255, 23, 67);*/
+    line-height: 1.563;
+    width: 91px;
+    margin-top: 18px;
+}
+
+#getStarted>.containers {
+    margin-top: 260px;
+}
+
+#getStarted>.containers>.col-6 {
+    padding-left: 140px;
+}
+
+.getStartedContent>h1 {
+    font-size: 28px;
+    font-family: "robotoBold";
+    color: rgb(51, 51, 79);
+    margin-top: 36px;
+}
+
+
+
+.getStartedContent>p {
+    font-size: 17px;
+    font-family: "robotoRegular";
+    color: rgb(118, 126, 173);
+    margin-top: 30px;
+}
+
+.getStartedContent> .signup {
+    background-color: #33334F;
+    font-family: "robotoRegular";
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 27px;
+    width: 205px;
+    height: 55px;
+}
+.getStartedContent> .signup:hover {
+    background-color: rgb(84, 40, 253);
+}
+
+#footer {
+    position: relative;
+}
+
+#footer>.footerBack {
+    background-color: rgb(51, 51, 79);
+    position: absolute;
+    top: 170px;
+    left: 0;
+    width: 1681px;
+    height: 1258px;
+    padding: 90px 240px 50px 230px;
+}
+
+footer .top>.col-7>h1 {
+    font-size: 28px;
+    font-family: "robotoBold";
+    color: rgb(255, 255, 255);
+    line-height: 1.9;
+}
+
+footer .top>.col-7>p {
+    font-size: 16px;
+    font-family: "robotoMedium";
+    color: rgb(118, 126, 173);
+    line-height: 1.563;
+}
+
+footer .middle h4 {
+    font-size: 20px;
+    font-family: "robotoBold";
+    color: rgb(255, 255, 255);
+    line-height: 2.845;
+}
+
+
+.App___Integration {
+    font-size: 20px;
+    font-family: "robotoBold";
+    color: rgb(255, 255, 255);
+    line-height: 2.845;
+}
+
+.middleList {
+    margin-left: -20px;
+    font-size: 15px;
+    font-family: "robotoRegular";
+    color: rgb(118, 126, 173);
+    line-height: 2.5;
+    list-style: none;
+}
+
+.middleList li::before {
+    content: "\25AA";
+    color: #9966ff;
+    font-weight: bolder;
+    font-size: 15px;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.middleIcon {
+    margin-left: -20px;
+    font-size: 15px;
+    font-family: "robotoRegular";
+    color: rgb(118, 126, 173);
+    line-height: 2.5;
+    list-style: none;
+}
+
+.middleIcon>li>img {
+    margin-right: 5px;
 }

@@ -9,9 +9,16 @@
 #integrateApp {
     background-image: url(../images/svg/integrateApp1.png);
     width: 1681px;
-    height: 1325px;
+    height: 955px;
     background-repeat: no-repeat;
 }
 
-
+.getStartedSVG {
+    float: right;
+    background-image: url(../images/svg/GetStarted.png);
+    width: 664px;
+    height: 628px;
+    margin: -100px 155px 0 0;
+    background-repeat: no-repeat;
+}
 
