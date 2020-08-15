@@ -1,4 +1,4 @@
-
+/*Raleway Font*/
 @font-face {font-family: 'AquireBold';
     src: url(../fonts/Aquire/AquireBold-8Ma60.otf) format('opentype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
     font-weight: bold;
@@ -13,26 +13,291 @@
     font-weight: normal;
 }
 
+
+/*Roboto Font*/
+@font-face {font-family: 'robotoRegular';
+    src: url(../fonts/roboto/Roboto-Regular.ttf) format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    font-weight: auto;
+}
+@font-face {font-family: 'robotoBlack';
+    src: url(../fonts/roboto/Roboto-Black.ttf) format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    font-weight: auto;
+}
+@font-face {font-family: 'robotoLight';
+    src: url(../fonts/roboto/Roboto-Light.ttf) format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    font-weight: auto;
+}
+@font-face {font-family: 'robotoThin';
+    src: url(../fonts/roboto/Roboto-Thin.ttf) format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    font-weight: auto;
+}
+@font-face {font-family: 'robotoMedium';
+    src: url(../fonts/roboto/Roboto-Medium.ttf) format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    font-weight: auto;
+}
+@font-face {font-family: 'robotoBold';
+    src: url(../fonts/roboto/Roboto-Bold.ttf) format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    font-weight: auto;
+}
+@font-face {font-family: 'robotoItalic';
+    src: url(../fonts/roboto/Roboto-Italic.ttf) format('truetype'); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    font-weight: auto;
+}
+
+
+
+
+
 body {
-    width: 1700px;
-    height: 1000px;
+    width: 1681px;
+    max-width: 1681px;
     background-color: white;
+}
+
+.containers {
+    padding-left: 214px;
+    padding-right: 214px;
 }
 
 a:hover {
     text-decoration: none;
 }
 
+.btnLog{
+    position: absolute;
+    left: 1150px;
+    top: 21px;
+}
+
+.btnLog>*{
+    font-size: 18px;
+    font-family: "robotoRegular";
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.login{
+    border: 0;
+    width: 139px;
+    height: 56px;
+}
+
+.login:hover {
+    border: 2px solid white;
+    border-radius: 35px;
+    width: 139px;
+    height: 56px;
+}
+
+.register {
+    border: 2px solid white;
+    border-radius: 35px;
+    width: 139px;
+    height: 56px;
+}
+
+.register:hover {
+    background-color: #005ed2;
+}
+
+#container .col-6 {
+    padding: 0;
+}
+
+.logoName{
+    position: absolute;
+    top: 29px;
+}
+
+.logoBack{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 18px 18px;
+    border-color: transparent transparent #9966ff transparent;
+}
+
+.logoName img{
+    display: inline-block;
+    width: 99px;
+    height: 40px;
+}
+
+.menuTop_shape1 {
+    padding-top: 170px
+}
+
+.menuTopContent h1 {
+    font-size: 50px;
+    font-family: "robotoBold";
+    color: rgb(51, 51, 79);
+    line-height: 1.14;
+    padding-top: 43px;
+}
 
 
+.menuTopContent>.express {
+    font-size: 17.5px;
+    font-family: "robotoRegular";
+    color: rgb(118, 126, 173);
+    line-height: 1.5;
+    width: 427px;
+    height: 72px;
+    margin-top: 35px;
+}
 
+.menuTopContent> .signup {
+    background-color: rgb(128, 101, 255);
+    font-family: "robotoRegular";
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 27px;
+    width: 178px;
+    height: 53px;
+}
+.menuTopContent> .signup:hover {
+    background-color: rgb(84, 40, 253);
+}
 
+.menuTopContent> .watchDemo {
+    background-color: rgb(255, 255, 255);
+    font-family: "robotoBold";
+    font-size: 18px;
+    color: #5428fd;
+    border: 2px solid white;
+    border-radius: 30px;
+    box-shadow: 0px -17px 30px 0px rgba(178, 178, 178, 0.15);
+    width: 178px;
+    height: 53px;
+}
 
+.menuTopContent> .watchDemo:hover {
+    border: 2px solid #5428FD;
+}
 
+.menuTopContent>.share {
+    margin-top: 86px;
+}
 
+.menuTopContent>.share i {
+    color: rgb(127, 135, 178);
+    font-size: 32px;
+    vertical-align: middle;
+}
 
+.menuTopContent>.share a {
+    font-size: 16.5px;
+    font-family: "Roboto";
+    color: rgb(127, 135, 178);
+    line-height: 1.2;
+}
 
+.menuTopContent>.share p {
+    margin-top: 79px;
+    font-size: 18px;
+    font-family: "robotoRegular";
+    color: rgb(51, 51, 79);
+    line-height: 1.5;
+    width: 510px;
+}
 
+.menuTopContent>.company img {
+    margin-right: 44px;
+    margin-top: 70px;
+}
+
+#about>.containers>.col {
+    margin-top: 270px;
+}
+
+#about h1 {
+    font-size: 30px;
+    font-family: "robotoBold";
+    color: rgb(51, 51, 79);
+    line-height: 1.9;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#about p {
+    font-size: 16px;
+    font-family: "robotoRegular";
+    color: rgb(118, 126, 173);
+    line-height: 1.563;
+    margin: 30px auto auto 0;
+    width: 719.531px;
+}
+
+#service>.containers>.row>.col-4 {
+    margin-top: 112px;
+}
+
+#service>.containers>.row>.col-4 h2 {
+    margin: 30px auto auto 0;
+    font-size: 18px;
+    font-family: "robotoBold";
+    color: rgb(51, 51, 79);
+    text-align: center;
+}
+
+#service>.containers>.row>.col-4 p {
+    margin: 30px auto auto 0;
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(118, 126, 173);
+    line-height: 1.563;
+    width: 314px;
+}
+
+#service>.containers>.row>.col-6>.subscribe {
+    border-radius: 10px;
+    background-color: rgb(51, 51, 79);
+    box-shadow: -1.816px -3.564px 30px 0px rgba(178, 178, 178, 0.15);
+    width: 586px;
+    height: 244px;
+    margin: 135px auto auto 0;
+    padding: 40px;
+    text-align: left;
+}
+
+#service .col-6>.subscribe h1 {
+    font-size: 30px;
+    font-family: "robotoRegular";
+    color: rgb(255, 255, 255);
+    line-height: 1.896;
+}
+
+#service .col-6>.subscribe p {
+    font-size: 16px;
+    font-family: "robotoRegular";
+    color: rgb(255, 255, 255);
+    line-height: 1.563;
+}
+
+#service .col-6>.subscribe input {
+    position: relative;
+    border: 1px solid #DCDCDF;
+    border-radius: 30px;
+    background-color: rgb(250, 250, 250);
+    padding-left: 25px;
+    width: 504px;
+    height: 58px;
+}
+
+#service .col-6>.subscribe button {
+    position: absolute;
+    left: 343px;
+    top: 4px;
+    width: 156px;
+    height: 50px;
+    background-color: rgb(228, 229, 239);
+    border-radius: 30px;
+}
 
 
 

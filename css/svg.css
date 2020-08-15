@@ -1,3 +1,10 @@
 .menuTop{
-    background-image: url("");
+    float: right;
+    background-image: url(../images/svg/vectorMenuTop.png);
+    width: 906px;
+    height: 993px;
+    background-repeat: no-repeat;
 }
+
+
+
