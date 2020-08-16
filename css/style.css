@@ -466,15 +466,7 @@ footer .middle h4 {
     line-height: 2.845;
 }
 
-
-.App___Integration {
-    font-size: 20px;
-    font-family: "robotoBold";
-    color: rgb(255, 255, 255);
-    line-height: 2.845;
-}
-
-.middleList {
+footer .middleList {
     margin-left: -20px;
     font-size: 15px;
     font-family: "robotoRegular";
@@ -483,7 +475,16 @@ footer .middle h4 {
     list-style: none;
 }
 
-.middleList li::before {
+footer .middleList>a {
+    text-decoration: none;
+    color: #767EAD;
+}
+
+footer .middleList>a:hover {
+    color: #d1d3fd;
+}
+
+footer .middleList li::before {
     content: "\25AA";
     color: #9966ff;
     font-weight: bolder;
@@ -493,7 +494,7 @@ footer .middle h4 {
     margin-left: -1em;
 }
 
-.middleIcon {
+footer .middleIcon {
     margin-left: -20px;
     font-size: 15px;
     font-family: "robotoRegular";
@@ -502,6 +503,50 @@ footer .middle h4 {
     list-style: none;
 }
 
-.middleIcon>li>img {
+footer .middleIcon>a {
+    text-decoration: none;
+    color: #767EAD;
+}
+
+footer .middleIcon>a:hover {
+    color: #d1d3fd;
+}
+
+footer .middleIcon>a>li>img {
     margin-right: 5px;
+}
+
+
+footer .bottomList>.logoFooter img{
+    margin-top: 70px;
+    display: inline-block;
+    width: 124px;
+    height: 37px;
+    margin-bottom: 35px;
+}
+
+footer .bottomList>p {
+    font-size: 16px;
+    font-family: "robotoMedium";
+    color: rgb(118, 126, 173);
+    line-height: 1.563;
+}
+
+footer .bottomList>.email {
+    font-size: 16px;
+    font-family: "robotoRegular";
+    color: #9966ff;
+}
+footer .bottomList>.email:hover {
+    color: #ece8fd;
+}
+
+
+footer .bottomList>.social i {
+    color: rgb(118, 126, 173);
+    font-size: 30px;
+    margin-right: 20px;
+}
+footer .bottomList>.social i:hover {
+    color: #DEE3FF;
 }
